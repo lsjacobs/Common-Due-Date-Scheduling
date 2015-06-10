@@ -1,31 +1,40 @@
 
 public class Job {
 	private int processingTime;
-    private int earlinessTime;
-    private int tardinessTime;
+    private int earliness;
+    private int tardiness;
+    private int orderId;
     
     public int getProcessingTime () {
     	return processingTime;
     }
     
-    public int getEarlinessTime () {
-    	return earlinessTime;
+    public int getEarliness () {
+    	return earliness;
     }
     
-    public int getTardinessTime () {
-    	return tardinessTime;
+    public int getTardiness () {
+    	return tardiness;
+    }
+    
+    public int getOrderId () {
+    	return orderId;
     }
     
     public void setProcessingTime (int processingTime) {
     	this.processingTime = processingTime;
     }
     
-    public void setEarlinessTime (int earlinessTime) {
-    	this.earlinessTime = earlinessTime;
+    public void setEarliness (int earliness) {
+    	this.earliness = earliness;
     }
     
-    public void setTardinessTime (int tardinessTime) {
-    	this.tardinessTime = tardinessTime;
+    public void setTardiness (int tardiness) {
+    	this.tardiness = tardiness;
+    }
+    
+    public void setOrderId (int orderId) {
+    	this.orderId = orderId;
     }
 }	
 
